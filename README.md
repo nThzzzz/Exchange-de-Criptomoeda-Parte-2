@@ -40,7 +40,7 @@ Bem-Vindo ao projeto em C da criação de um Exchange de criptomoedas do Curso (
         <pre><code>./exchange</pre></code> 
 
       
-## 🚀 Passo a Passo(Função por função).
+## 🚀 Passo a Passo - Usuários.
 
 ### 1. Menu Inicial
 -    Aqui é apresentado ao usuario 3 opções.
@@ -66,6 +66,31 @@ Bem-Vindo ao projeto em C da criação de um Exchange de criptomoedas do Curso (
      -    Onde as cotações das criptomoedas podem ser atualizadas e seu valor consequentemente mudado com apenas um clique.
      #### 2.8 Voltar ao menu inicial
      -    Opção de sair e voltar ao menu inicial.
+ 
+## 🚀 Passo a Passo - Administradores.
+
+### 1. Menu Inicial
+-    Aqui é apresentado ao usuario 3 opções.
+-    **Cadastro**:  Caso não tenha uma conta no Exchange, crie sua conta aqui com um CPF válido, senha e um nome de usuário.
+-    **Login**:  Caso já tenha uma conta e deseja acessa-la.
+-    **Sair**: Sair da aplicação.
+
+### 2. Menu de opções
+-    Menu principal do projeto, onde nos é apresentado todas as funcionalidades do projeto.
+     #### 2.1 Cadastro de novos investidores
+     -    Assim como um usuário comum, o administrador pode cadastrar novos usuários, com  as mesmas informações do cadastro de usuários comuns.
+     #### 2.2 Excluir investidores
+     -    Local onde o administrador pode excluir qualquer um dos usuário apenas digitando o CPF e fazendo uma confirmação. Recurso usado para deixar o nosso banco longe de 'Hackers'.
+     #### 2.3 Cadastro de Criptomoedas
+     -    Local onde o administrador pode cadastrar uma grande váriedade de novas criptomoedas para que o investidor possa investir com segurança e muita diversidade.
+     #### 2.4 Excluir Criptomoedas
+     -    Assim como o mesmo pode casdastrar mais Criptomoedas, o mesmo pode excluir qualquer uma apenas com o nome da criptomoeda, e após uma confirmação a moeda é excluida totalmente.
+     #### 2.5 Consultar saldo dos investidores
+     -    Aqui uma consulta de saldo pode ser feita pelo administrador em qualquer um dos usuários, apenas informando o CPF do usuário em questão e ver seu saldo atual.
+     #### 2.6 Consultar extrato dos investidores
+     -    Aqui onde o administrador pode fazer a consulta dos extrato de todos os usuários, apenas informando o CPF do usuário em questão e ver todo o extrato.
+     #### 2.7 Atualizar Cotação das Criptomoedas
+     -    Onde as cotações das criptomoedas podem ser atualizadas e seu valor consequentemente mudado com apenas um clique.
 
 ## 🏷️ Membros da Equipe
 -    Arthur Barbosa Zanvetor  **R.A.**: 24.124.063-9
