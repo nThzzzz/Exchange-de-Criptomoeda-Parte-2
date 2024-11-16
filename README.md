@@ -9,43 +9,26 @@ Bem-Vindo ao projeto em C da criação de um Exchange de criptomoedas do Curso (
 
 ## 🧾 Compilação e Execução
 -    Como compilar e executar nosso projeto?
-### 1. Replit
--    Abrir a plataforma Replit e puxar o codigo do github pelo link desse repositorio.
-      #### 1.2. Makefile 
-     -    Após isso, o usuário deverá abrir o arquivo Makefile criado e colar a seguinte linha de codigo.
-         <pre><code>
-         
-              all: main
-              CC = clang
-              
-              override CFLAGS += -g -Wno-everything -pthread -lm
-              
-              SRCS = $(shell find . -name '.ccls-cache' -type d -prune -o -type f -name '*.c' -print)
-              HEADERS = $(shell find . -name '.ccls-cache' -type d -prune -o -type f -name '*.h' -print)
-              
-              main: $(SRCS) $(HEADERS)
-                $(CC) $(CFLAGS) $(SRCS) -o "$@"
-              
-              main-debug: $(SRCS) $(HEADERS)
-                $(CC) $(CFLAGS) -O0 $(SRCS) -o "$@"
-              
-              clean:
-                rm -f main main-debug
-          </pre></code>
-     - Depois de colar o código, apenas clique no botão "Run". Onde o programa será compilado e executado de forma correta.
-### 2. Terminal
+### 1. Terminal
 
-#### 2.1 Exchange 
+#### 1.1 Exchange 
 -  Ao baixar a pasta e entrar no diretório dos arquivos pelo terminal de sua máquina, cole a seguinte linha de código.
-        <pre><code> gcc -o exchange main.c manip_exchange.c -lm</pre></code>   
+  
+         gcc -o exchange main.c manip_exchange.c -lm
+   
       -   E logo em seguida.
-        <pre><code>./exchange</pre></code>
 
-#### 2.2 Admin 
+        ./exchange
+
+#### 1.2 Admin 
 -  Ao baixar a pasta e entrar no diretório dos arquivos pelo terminal de sua máquina, cole a seguinte linha de código.
-        <pre><code> gcc -o admin admin.c manip_admin.c -lm</pre></code>   
+  
+         gcc -o admin admin.c manip_admin.c -lm
+    
       -   E logo em seguida.
-        <pre><code>./admin</pre></code> 
+
+
+        ./admin 
 
       
 ## 🚀 Passo a Passo - USUÁRIOS.
