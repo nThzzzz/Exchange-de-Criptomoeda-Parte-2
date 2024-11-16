@@ -87,14 +87,14 @@ Bem-Vindo ao projeto em C da criação de um Exchange de criptomoedas do Curso (
 
 ### USUÁRIOS
 
--   Logo que iniciar o programa, o usuário será redirecionado para um menu inicial onde o mesmo deverá fazer seu cadastro, após selecionar a opção de cadastro, o usuário deverá informar os dados necessários, sendo eles: CPF, senha e nome ( **CPF : 12345678909 , SENHA : 123456 , NOME : USUARIO**).
+-   Logo que iniciar o programa, o usuário será redirecionado para um menu inicial onde o mesmo deverá fazer seu cadastro, após selecionar a opção de cadastro, o usuário deverá informar os dados necessários, sendo eles: CPF, senha e nome ( **Exemplo: CPF : 12345678909 , SENHA : 123456 , NOME : USUARIO**).
 -   Após o cadastro ser efetuado, o login deverá ser feito para acessar o menu e conseguir utilizar 100% das funcionalidades da exchange, para isso o investidor deverá selecionar a opção de login e informar as mesmas informações utilizadas no cadastro.
 -   Dentro do menu de operações, o mesmo poderá escolher qualquer uma das opções com o número correspondente a operação desejada.
 -   Por fim, para sair basta apenas selecionar a opção de sair do menu (correspondente ao número 8) e por fim selecionar a opção de sair (correspondente ao número 3).
 
 ### ADMINISTRADORES
 
--   Logo que iniciar o programa, o administrador será redirecionado para um menu inicial onde o mesmo deverá fazer seu cadastro, após selecionar a opção de cadastro, o administrador deverá informar os dados necessários, sendo eles: CPF, senha e nome ( **CPF : 12345678909 , SENHA : 123456 , NOME : ADMIN**).
+-   Logo que iniciar o programa, o administrador será redirecionado para um menu inicial onde o mesmo deverá fazer seu cadastro, após selecionar a opção de cadastro, o administrador deverá informar os dados necessários, sendo eles: CPF, senha e nome ( **Exemplo: CPF : 12345678909 , SENHA : 123456 , NOME : ADMIN**).
 -   Após o cadastro ser efetuado, o login deverá ser feito para acessar o menu e conseguir utilizar as opções de administrador, desde criar usuarios a exclusão de criptomoedas, para isso o mesmo deverá selecionar a opção de login e informar as mesmas informações utilizadas no cadastro.
 -   Dentro do menu de operações, o mesmo poderá escolher qualquer uma das opções com o número correspondente a operação desejada.
 -   Por fim, para sair basta apenas selecionar a opção de sair do menu (correspondente ao número 0) e por fim selecionar a opção de sair (correspondente ao número 3).
